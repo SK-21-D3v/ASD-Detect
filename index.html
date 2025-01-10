@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autism Assessment</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Autism Assessment Questionnaire</h1>
+        <p>Please answer the following questions with "Yes" or "No".</p>
+        <form action="/submit" method="POST">
+            {% for question in questions %}
+                <div class="question">
+                    <label>{{ question }}</label><br>
+                    <input type="radio" name="q{{ loop.index }}" value="Yes" required> Yes
+                    <input type="radio" name="q{{ loop.index }}" value="No" required> No
+                </div>
+            {% endfor %}
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
