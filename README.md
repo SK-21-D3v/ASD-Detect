@@ -4,13 +4,11 @@ ASD-Detect is a machine learning model designed to identify autism spectrum diso
 
 **Basic Flow of the Application:**
 
+
 ![Assessment Questionnaaire](https://github.com/SK-21-D3v/ASD-Detect/blob/main/Screenshot%20(1379).png?raw=true)<br>
 
-![List Of Reports]() <br>
+![Predicted Result](https://github.com/SK-21-D3v/ASD-Detect/blob/main/Screenshot%20(1380).png?raw=true) <br>
 
-![Adding a New Report]() <br>
-
-![Upadtes List of Reports]()<br>
 
 ## Features:
 
